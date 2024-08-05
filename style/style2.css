@@ -1,0 +1,45 @@
+*{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.nav-bar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+
+.nav-bar .logo{
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 10vh;
+}
+
+.nav-bar .menu{
+    padding-top: 13px;
+    padding-right: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-bar .menu li{
+    padding-right: 5vh;
+}
+
+.hero h3{
+    padding-left: 50px;
+}
+
+.hero .berita {
+    padding-left: 50px;
+    display: flex;
+}
+
+.hero .berita img{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
