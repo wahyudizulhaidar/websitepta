@@ -16,6 +16,10 @@
     padding-left: 10vh;
 }
 
+.nav-bar .logo a{
+    color: black;
+}
+
 .nav-bar .menu{
     padding-top: 13px;
     padding-right: 5vh;
@@ -27,6 +31,10 @@
 
 .nav-bar .menu li{
     padding-right: 5vh;
+}
+
+.nav-bar .menu li a{
+    color: black;
 }
 
 .hero h3{
