@@ -51,3 +51,10 @@
     width: 200px;
     background-color: aqua;
 }
+
+
+/* Pengajuan Izin */
+.form-izin{
+    height: 600px;
+    background-color: rgb(29, 84, 173);
+}
