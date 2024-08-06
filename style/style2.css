@@ -35,6 +35,7 @@
 
 .nav-bar .menu li a{
     color: black;
+    font-weight: 500;
 }
 
 .hero h3{
@@ -56,5 +57,5 @@
 /* Pengajuan Izin */
 .form-izin{
     height: 600px;
-    background-color: rgb(29, 84, 173);
+    background-color: #1d54ad;
 }
