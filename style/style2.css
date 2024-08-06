@@ -53,8 +53,50 @@
   background-color: aqua;
 }
 
-/* Pengajuan Izin */
+* {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+/*Pengajuan Izin*/ 
+.form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
 .form-izin {
-  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
   background-color: #1d54ad;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label, input {
+  width: 100%;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="file"] {
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  text-align: center;
 }
