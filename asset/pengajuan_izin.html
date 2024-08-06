@@ -16,7 +16,7 @@
         <div class="menu">
             <li><a href="beranda.html">Home</a></li>
             <li><a href="pengajuan_izin.html">Ajukan Izin</a></li>
-            <li><a href="">Status Izin</a></li>
+            <li><a href="status_izin.html">Status Izin</a></li>
             <li><a href="">Profil</a></li>
             <li><a href="">Log Out</a></li>
         </div>
@@ -34,17 +34,25 @@
                 <input type="number" name="nip" id="nip" placeholder="NIP Anda">
                 <label for="jabatan">Jabatan</label>
                 <input type="text" name="jabatan" id="jabatan" placeholder="Jabatan Anda">
+                
                 <h3>Izin Keluar Pada:</h3>
-                <label for="tanggal">Tanggal</label>
-                <input type="date" name="tanggal" id="tanggal">
-                <label for="jam1">Waktu</label>
-                <input type="text" name="jam1" id="jam1">
-                <label for="">s/d</label>
-                <input type="text" name="jam2" id="jam2"><br>
-                <label for="keperluan">Keperluan Izin</label>
-                <input type="text" name="keperluan" id="keperluan" placeholder="Keperluan Izin">
-                <label for="ttd">Tanda Tangan</label>
-                <input type="file" name="ttd" id="ttd">
+                <div class="form-ke-2">
+                    <label for="tanggal">Tanggal</label>
+                    <input type="date" name="tanggal" id="tanggal">
+                    <label for="jam1">Waktu</label><br>
+                    <input class="jam1" type="text" name="jam1" id="jam1">
+                    <label for="">s/d</label>
+                    <input class="jam2" type="text" name="jam2" id="jam2"><br>
+                    <label for="keperluan">Keperluan Izin</label>
+                    <input type="text" name="keperluan" id="keperluan" placeholder="Keperluan Izin">
+                    <label for="ttd">Tanda Tangan</label>
+                    <input type="file" name="ttd" id="ttd">
+                </div>
+                
+                <div class="t-tombol">
+                    <button class="tombol" type="reset">Batal</button>
+                    <button class="tombol" type="submit">Kirim</button>
+                </div>
             </form>
             
         </div>

@@ -53,27 +53,24 @@
   background-color: aqua;
 }
 
-* {
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-}
-
-/*Pengajuan Izin*/ 
-.form {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 400px;
-}
-
+/*Pengajuan Izin*/
 .form-izin {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  align-items: top;
+  height: 150vh;
   width: 100%;
   background-color: #1d54ad;
+}
+
+.form {
+  margin-top: 5px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 100vh;
 }
 
 form {
@@ -81,7 +78,8 @@ form {
   flex-direction: column;
 }
 
-label, input {
+label,
+input {
   width: 100%;
 }
 
@@ -89,14 +87,43 @@ label {
   margin-top: 10px;
 }
 
-input[type="text"], input[type="number"], input[type="date"], input[type="file"] {
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"] {
   margin-top: 5px;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-h3 {
-  margin-bottom: 10px;
+h3:nth-child(1) {
+  margin: 0 0 10px 0;
   text-align: center;
+}
+
+.form-izin .form form h3{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.form-izin .form input {
+  width: 95%;
+}
+
+.form-izin .form .jam1,
+.form-izin .form .jam2 {
+  width: 41%;
+}
+
+.form-izin .form .t-tombol {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-izin .form .tombol {
+  margin-top: 12px;
+  width: 100px;
+  border-radius: 5px;
 }
